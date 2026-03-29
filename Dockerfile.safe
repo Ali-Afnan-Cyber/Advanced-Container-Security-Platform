@@ -1,0 +1,4 @@
+FROM python:3.12-alpine
+RUN echo "This is a clean image"
+CMD ["python", "--version"]
+

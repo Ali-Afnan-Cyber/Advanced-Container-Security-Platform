@@ -1,0 +1,4 @@
+FROM python:2.7
+RUN echo "This image is intentionally vulnerable"
+CMD ["python", "--version"]
+
